@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: space-between;
+	background-color: #ddf4b0;
+}
+/* Navbar */
+header {
+	background-color: rgb(56, 220, 113);
+	color: #fff;
+	padding: 15px;
+}
+nav {
+	margin: 0;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-title-container{
+	width: 22%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-title {
+	font-size: 1.8rem;
+	font-family: 'Roboto', sans-serif;
+}
+.nav-logo{
+	width: 100%;
+}
+.nav-logo-container{
+	background-color: #ddf4b0;
+	width: 90px;
+	padding: 0.9rem;
+	border-radius: 45px;
+}
+.nav-links-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+	width: 50%;
+}
+.nav-links {
+	color: rgb(52, 13, 13);
+	font-size: 1.3rem;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+/* Links effect */
+.underline-hover-effect {
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+.underline-hover-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(52, 13, 13);
+  transition: width 0.25s ease-out;
+}
+.underline-hover-effect:hover::before {
+  width: 100%;
+}
+/**/
+/* Footer */
+footer {
+	background-color: rgb(47, 182, 94);
+	color: #fff;
+}
+.footer-container {
+	margin: 0;
+	padding: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-title-container{
+	width: 22%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-title {
+	color: #134d29;
+	font-size: 1.8rem;
+	font-family: 'Roboto', sans-serif;
+}
+.footer-logo{
+	width: 100%;
+}
+.footer-links-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+	width: 50%;
+}
+.footer-links {
+	color: #134d29;
+	font-size: 1rem;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.footer-links:hover {
+  color: #0b1a11;
+  text-shadow: 0px 0px 5px #2cea6850;
+  right: 0;
+  left: 0;
+  font-size: 1.03rem;
+  transition: 0.3s;
+}
