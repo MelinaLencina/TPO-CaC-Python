@@ -712,15 +712,13 @@ section{
 form{
 	color: #fff;
 }
-.form-message, .form-container {
+.form-message, .form-container, .results-message, .results-container {
 	display: flex;
 	justify-content: center;
 	padding: 1rem;
 }
-textarea, #title, #image, #ingredients{
-	align-items: center;
-}
-.form-index, .form-container h1, .form-container h2 {
+
+.form-index, .form-container h1, .form-container h2, .results-container h1, .results-container h2 {
   text-align: center;
 }
 .form-index{
@@ -728,13 +726,13 @@ textarea, #title, #image, #ingredients{
 	flex-direction: column;
 }
 
-.form-message {
+.form-message, .results-message {
   justify-content: space-evenly;
   width: 100%;
   margin: 50px 0;
 }
 
-.form-container {
+.form-container, .results-container {
   flex-direction: column;
   background: var(--gradient);
   width: 40%;
@@ -742,13 +740,13 @@ textarea, #title, #image, #ingredients{
   border-radius: 10px;
 }
 
-.form-container h1 {
+.form-container h1, .results-container h1 {
   font-size: 2.5rem;
   font-weight: 600;
   margin: 1rem;
 }
 
-.form-container h2 {
+.form-container h2, .results-container h2 {
   font-size: 1rem;
   margin: 1rem;
 }
@@ -804,3 +802,8 @@ textarea {
   padding: 0.5rem 1rem;
 }
 
+.results{
+	  display: flex;
+  align-items: center;
+  justify-content: center;
+}
