@@ -18,8 +18,8 @@ Website for Codo a Codo 4.0 Full Stack Python
 
 ## Team
 
-![Image Fernando](https://media.discordapp.net/attachments/854123718753779762/1035041412930084955/unknown.png?width=702&height=468) Fernando | ![Image Melina](https://media.discordapp.net/attachments/854123718753779762/1035041311360811068/unknown.png?width=624&height=468) Melina | ![Image Josefina](https://media.discordapp.net/attachments/854123718753779762/1035042154088767537/unknown.png?width=698&height=467)Josefina|
-| :---: | :---: | :---: | :---: |
+|![Image Fer](https://media.discordapp.net/attachments/854123718753779762/1035041412930084955/unknown.png?width=702&height=468) Fernando| ![Image Mel](https://media.discordapp.net/attachments/854123718753779762/1035041311360811068/unknown.png?width=624&height=468) Melina | ![Image Josefina](https://media.discordapp.net/attachments/854123718753779762/1035042154088767537/unknown.png?width=698&height=467)Josefina|
+| :---: | :---: | :---: |
 
 ---
 
